@@ -1,0 +1,134 @@
+body {
+    width: 1024px;
+    background-color: #1b2838;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    box-shadow: 1px -1px 5px 5px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 1px -1px 5px 5px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px -1px 5px 5px rgba(0, 0, 0, 0.57);
+}
+
+header nav {
+    margin-bottom: 10px;
+    height: 90px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 25px;
+    margin: 5px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron', 'Sans-serif';
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+#contenerProductos {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.productos {
+    display: inline-block;
+    width: 504px;
+    height: 480px;
+    margin: 2px 2px 2px 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.productos h2,
+h3,
+p {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Orbitron', 'Sans-serif';
+    color: black;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.productos button {
+    width: 200px;
+    height: 80px;
+    margin-left: 150px;
+    background: #1b2838;
+    background-image: -webkit-linear-gradient(top, #1b2838, #1d9ded);
+    background-image: -moz-linear-gradient(top, #1b2838, #1d9ded);
+    background-image: -ms-linear-gradient(top, #1b2838, #1d9ded);
+    background-image: -o-linear-gradient(top, #1b2838, #1d9ded);
+    background-image: linear-gradient(to bottom, #1b2838, #1d9ded);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'Orbitron', 'Sans-serif';
+    color: #000000;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    border: solid #0a0d0f 2px;
+    text-decoration: none;
+}
+
+.productos button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#searchBar {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+#searchBarText {
+    height: 32px;
+    width: 200px;
+    background-color: #1b2838;
+}
+
+#searchBarText:focus {
+    border: none;
+}
+
+#searchBarText:active {
+    border: none;
+}
+
+#buttonSearch {
+    width: 60px;
+    height: 30px;
+    background-color: #1b2838;
+    color: white;
+}
+
+footer {
+    border: 1px solid black;
+    margin: 15px;
+}

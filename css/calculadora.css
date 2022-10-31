@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+
+#calculadora {
+    height: 500px;
+    width: 800px;
+    border-color: 1.5px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+#calculadora h2 {
+    font-size: 12px;
+    color: black;
+    font-family: 'Oritron', 'Sans-serif';
+}
